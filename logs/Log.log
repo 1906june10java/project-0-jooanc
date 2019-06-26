@@ -150,3 +150,4 @@ java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinst
 	at com.revature.controller.Controller.<init>(Controller.java:53)
 	at com.revature.Driver.main(Driver.java:15)
 2019-06-26 16:18:05 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:30:55 ERROR Controller:154 - Illegal action. Returned to menu.

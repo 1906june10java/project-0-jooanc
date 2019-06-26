@@ -147,7 +147,7 @@ public Controller(){
 					loginState = false;
 				}
 				
-				else if (!menuState.equals("0")&&!menuState.equals("1")&&!menuState.equals("2")&&!menuState.equals("3")&&!menuState.equals("4")) {
+				else {
 					try {
 						throw new InvalidMenuException();
 					} catch (InvalidMenuException e) {
@@ -157,7 +157,6 @@ public Controller(){
 					
 				}
 				
-				else {}
 				
 		}
 		
