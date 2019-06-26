@@ -1,0 +1,152 @@
+2019-06-26 16:04:12 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getAllUsers(UsersRepojdbc.java:52)
+	at com.revature.service.ServiceUtil.registerNewUser(ServiceUtil.java:47)
+	at com.revature.controller.Controller.<init>(Controller.java:46)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:04:12 ERROR UsersRepojdbc:73 - Counld not get all accounts.
+2019-06-26 16:05:25 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:05:25 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:05:25 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:06:34 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:06:34 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:06:35 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:07:29 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:07:29 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:07:29 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:11:15 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:11:15 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:11:15 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:16:26 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:16:26 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:16:26 ERROR ServiceUtil:24 - java.lang.NullPointerException
+2019-06-26 16:18:05 WARN  ConnectionUtil:23 - Exception thrown adding oracle driver.
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.revature.util.ConnectionUtil.<clinit>(ConnectionUtil.java:21)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:18:05 ERROR UsersRepojdbc:45 - Account not found
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@bankdbinstance.cd85qhigqy8i.us-east-2.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:34)
+	at com.revature.repository.UsersRepojdbc.getUsers(UsersRepojdbc.java:22)
+	at com.revature.service.ServiceUtil.getUserInfo(ServiceUtil.java:20)
+	at com.revature.controller.Controller.<init>(Controller.java:53)
+	at com.revature.Driver.main(Driver.java:15)
+2019-06-26 16:18:05 ERROR ServiceUtil:24 - java.lang.NullPointerException
